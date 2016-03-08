@@ -1,4 +1,4 @@
-# def check_age
+def check_age
     puts "How old are you?"
     print "> "
     user_age = gets.chomp.to_i
@@ -13,4 +13,6 @@
           when 25..100
             puts "You can rent a car."
         end
-# end
+end
+
+puts check_age
